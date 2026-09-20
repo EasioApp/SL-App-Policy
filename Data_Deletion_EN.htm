@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shift Ledger — Data Deletion</title>
+  <style>
+  :root{--ink:#1a1a1a; --sub:#5b5b5b; --line:#e3e3e3; --bg:#fff; --accent:#0f5132;}
+  *{box-sizing:border-box}
+body{margin:0; background:var(--bg); color:var(--ink); font-family:-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif; line-height:1.6; font-size:16px;}
+.wrap{max-width:760px; margin:0 auto; padding:40px 20px 80px}
+h1{font-size:1.6rem; margin:0 0 .25rem}
+.dates{color:var(--sub); font-size:.9rem; margin-bottom:1rem}
+.intro{background:#f6f8f7; border-left:3px solid var(--accent); padding:.9rem 1rem; font-style:italic; margin-bottom:1.5rem}
+  h2{font-size:1.15rem; border-top:1px solid var(--line); padding-top:1.5rem; margin-top:2rem}
+h3{font-size:1rem; margin-top:1.25rem}
+p{margin:.75rem 0}
+  ul{margin:.5rem 0; padding-left:1.3rem}
+li{margin:.4rem 0}
+  a{color:var(--accent)}
+footer{color:var(--sub); font-size:.85rem; margin-top:2.5rem}
+</style>
+  </head>
+  <body>
+  <div class="wrap">
+  <h1>Data Deletion for Shift Ledger</h1>
+  <div class="dates">Effective Date: September 20, 2026 · Last Updated: September 20, 2026</div>
+  <p class="intro">Shift Ledger has no user accounts and no central server holding your records. Almost everything the app stores never leaves your device, so you can delete it yourself, completely and immediately, without asking us. This page explains how — and how to request deletion of the limited subscription data that is processed outside your device.</p>
+<h2>1. There Is No Account to Delete</h2>
+  <p>Shift Ledger does not ask you to register, sign in, or create a profile. There is no username, no password, and no account record held by us. Your employer details, shifts, wage rates, income and deduction entries, notes and ledger balances are written to an encrypted database (SQLCipher) on your own device and are never uploaded to any server we operate.</p>
+<p>Because of that, deleting your data is something you perform directly, and it takes effect at once.</p>
+<h2>2. Delete Everything on Your Device</h2>
+<p>You can erase all app data permanently, at any time, using either method below.</p>
+<h3>2.1 From inside the app</h3>
+<ul>
+<li>Open <strong>Settings → Data Management → Clear All Data</strong>.</li>
+<li>Confirm twice. The second confirmation is deliberate: the wipe cannot be undone.</li>
+<li>Every employer, shift, payment, note and balance is removed from the device database, along with your app preferences.</li>
+</ul>
+<h3>2.2 By uninstalling</h3>
+<ul>
+<li>Uninstalling Shift Ledger removes its entire private storage area, including the encrypted database and the key material held in the Android Keystore.</li>
+<li>If you have not exported a backup file, that data cannot be recovered afterwards — not by you, and not by us.</li>
+</ul>
+<h2>3. Delete Your Backups</h2>
+<p>Backups are optional and off by default. When you create one, the encrypted backup file is written either to storage you choose on your device or to <strong>your own Google Drive account</strong>. We do not host these files and have no access to them.</p>
+<ul>
+<li><strong>Local backup files:</strong> delete them with your device's file manager.</li>
+<li><strong>Google Drive backups:</strong> delete them from your Google Drive, then empty the Drive trash. You may also revoke the app's access to your Drive at any time from your <a href="https://myaccount.google.com/permissions">Google Account permissions page</a>.</li>
+</ul>
+<h2>4. Subscription and Entitlement Records</h2>
+<p>The only data processed outside your device concerns your subscription status. When you install the app, our subscription provider <strong>RevenueCat</strong> creates an anonymous identifier so the app can check whether a Pro entitlement is active. If you purchase a subscription, the associated purchase token and entitlement dates are stored against that identifier.</p>
+<p>These records contain no financial ledger data, no employer information and no shift history. Payment details are handled entirely by Google Play Billing and are never received or stored by us.</p>
+  <h3>4.1 Requesting deletion of those records</h3>
+<p>To have your subscription and entitlement records erased, email us at <a href="mailto:easio.app@gmail.com">easio.app@gmail.com</a> with the subject line <strong>"Data deletion request"</strong> and include:</p>
+<ul>
+<li>The Google account email address used for the purchase.</li>
+<li>A short statement that you are requesting deletion.</li>
+</ul>
+<p>We respond within <strong>30 days</strong>, as required under the GDPR and the Turkish Law on the Protection of Personal Data No. 6698 (KVKK). You do not need to give a reason, and we do not charge for the request.</p>
+<h3>4.2 What is deleted, and what is kept</h3>
+<ul>
+<li><strong>Deleted:</strong> the anonymous app user identifier and the entitlement records associated with it.</li>
+<li><strong>Kept:</strong> transaction records that tax, accounting and fraud-prevention law obliges us and our payment processors to retain. These are retained for the statutory period only, are not used for any other purpose, and cannot be deleted on request while that obligation stands.</li>
+</ul>
+<p>Deleting these records does not cancel an active subscription. Subscriptions are managed by Google Play — cancel yours at <a href="https://play.google.com/store/account/subscriptions">Google Play Subscriptions</a> before requesting deletion if you no longer wish to be billed.</p>
+<h2>5. Summary</h2>
+<ul>
+<li><strong>Your financial and employment records:</strong> deleted by you, instantly, from inside the app or by uninstalling. No request needed.</li>
+<li><strong>Your backups:</strong> deleted by you, from your device storage or your own Google Drive.</li>
+<li><strong>Subscription and entitlement records:</strong> deleted by us on request, within 30 days, at <a href="mailto:easio.app@gmail.com">easio.app@gmail.com</a>.</li>
+</ul>
+<h2>6. Contact</h2>
+<p>For any question about deletion or about your rights under the GDPR or KVKK:</p>
+<p><strong>Email:</strong> <a href="mailto:easio.app@gmail.com">easio.app@gmail.com</a><br><strong>Operated by:</strong> Easio App</p>
+<p>See also our <a href="Privacy_Policy_EN.htm">Privacy Policy</a>.</p>
+<footer>Shift Ledger is developed by Easio App.</footer>
+</div>
+</body>
+</html>
